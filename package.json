@@ -1,0 +1,24 @@
+{
+  "name": "podcastTuner_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitico-S/podcastTuner_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitico-S/podcastTuner_js/issues"
+  },
+  "homepage": "https://github.com/Mitico-S/podcastTuner_js#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
