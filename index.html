@@ -3,31 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Podcast Tuner</title>
   </head>
   <body>
-    <h1>Radio Podcasts</h1>
-    <div>
-      <input id="inputCurrentFrequency" value="87.5 Mhz" type="text" />
+    <div class="container">
+      <h1>Radio Podcasts</h1>
+      <div>
+        <input id="inputCurrentFrequency" value="87.5 Mhz" type="text" />
+      </div>
+
+      <div>
+        <input
+          id="rangeFrequency"
+          value="87.5 Mhz"
+          type="range"
+          name=""
+          min="87.5"
+          max="108"
+          step="0.1"
+        />
+      </div>
+
+      <div id="divPodcast">
+        <p>Nenhum Podcast encontrado</p>
+      </div>
     </div>
 
-    <div>
-      <input
-        id="rangeFrequency"
-        value="87.5 Mhz"
-        type="range"
-        name=""
-        min="87.5"
-        max="108"
-        step="0.1"
-      />
-    </div>
-
-    <div id="divPodcast">
-      <p>Nenhum Podcast encontrado</p>
-    </div>
-
-    <script defer src="./js/script.js"></script>
+    <script defer src="./js/podcasts.js"></script>
     <script defer src="./js/script.js"></script>
   </body>
 </html>
